@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>موقع السوري للربح الحقيقي</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="pages">
+
+  <section id="dashboard" class="page active">
+    <h2>🏠 الرئيسية</h2>
+    <p>هنا يظهر ملخص الحساب.</p>
+  </section>
+
+  <section id="tasks" class="page">
+    <h2>🎯 المهام</h2>
+    <p>هنا المهام اليومية.</p>
+  </section>
+
+  <section id="deposit" class="page">
+    <h2>💲 الشحن</h2>
+    <p>هنا يتم شحن الرصيد.</p>
+  </section>
+
+  <section id="withdraw" class="page">
+    <h2>💵 السحب</h2>
+    <p>هنا يتم طلب السحب.</p>
+  </section>
+
+  <section id="profile" class="page">
+    <h2>👤 الحساب</h2>
+    <p>بيانات المستخدم.</p>
+  </section>
+
+</div>
+
+<!-- bottom menu -->
+<div class="bottom-menu">
+  <button onclick="showPage('dashboard')">🏠<span>الرئيسية</span></button>
+  <button onclick="showPage('tasks')">🎯<span>المهام</span></button>
+  <button onclick="showPage('deposit')">💲<span>الشحن</span></button>
+  <button onclick="showPage('withdraw')">💵<span>السحب</span></button>
+  <button onclick="showPage('profile')">👤<span>الحساب</span></button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
